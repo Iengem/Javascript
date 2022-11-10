@@ -16,6 +16,21 @@ if(choose=="1"){
             alert('Not a valid option');
         }
     }
+    if(subs=="2"){
+        daily = prompt('Choose a weekly data bundle:\n 1. N1,500 for 6GB(1 week)\n 2. N3,000 for 9GB(3 weeks)\n 3. N5,000 for 20GB(2 weeks)');
+        if(daily=='1'){
+            alert('Your purchase of 6GB for N1,500 was successful');
+        }
+        else if(daily=='2'){
+            alert('Your purchase of 9GB for N3,000 was successful');
+        }    
+        else if(daily=='3'){
+            alert('Your purchase of 20GB for N5,000 was successful');
+        }
+        else{
+            alert('Not a valid option');
+        }
+    }
 }
 else{
     alert('Not a valid option');
