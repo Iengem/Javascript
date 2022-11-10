@@ -31,6 +31,21 @@ if(choose=="1"){
             alert('Not a valid option');
         }
     }
+    if(subs=="3"){
+        daily = prompt('Choose a monthly data bundle:\n 1. N6,000 for 12GB(1 month)\n 2. N10,000 for 20GB(2 months)\n 3. N20,000 for 50GB(1 month)');
+        if(daily=='1'){
+            alert('Your purchase of 12GB for N6,000 was successful');
+        }
+        else if(daily=='2'){
+            alert('Your purchase of 20GB for N10,000 was successful');
+        }    
+        else if(daily=='3'){
+            alert('Your purchase of 50GB for N20,000 was successful');
+        }
+        else{
+            alert('Not a valid option');
+        }
+    }
 }
 else{
     alert('Not a valid option');
