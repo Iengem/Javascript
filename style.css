@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#eggs{
+    padding:20px;
+    width: 200px;
+    border: 1px solid;
+    padding-left:20px;
+    border-radius: 15px;
+    font-size: 15px;
+    outline: none;
+}
+#button, fieldset{
+    margin-left:400px;
+    margin-top:150px;
+}
+legend{
+    font-weight: bold;
+    padding: 10px;
+}
+fieldset{
+    width: 400px;
+    padding: 20px;
+}
+#button{
+    padding: 20px 30px;
+    outline: none;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top:20px;
+    border:1px solid black;
+}
+#resetbtn{
+    padding: 20px 30px;
+    outline: none;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top:20px;
+    border:1px solid black;
+}
