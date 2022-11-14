@@ -7,11 +7,14 @@
 #eggs{
     padding:20px;
     width: 200px;
-    border: 2px solid;
+    border: 1px solid;
     padding-left:20px;
     border-radius: 15px;
     font-size: 15px;
     outline: none;
+}
+input::placeholder{
+    font-weight: 500;
 }
 #button, fieldset{
     margin-left:400px;
@@ -24,7 +27,7 @@ legend{
 fieldset{
     width: 400px;
     padding: 20px;
-    border: 2px solid ;
+    border: 2px solid;
 }
 #button{
     padding: 20px 30px;
@@ -32,15 +35,8 @@ fieldset{
     text-align: left;
     font-size: 15px;
     border-radius: 15px;
-    margin-top:20px;
-    border:1px solid black;
-}
-#resetbtn{
-    padding: 20px 30px;
-    outline: none;
-    text-align: left;
-    font-size: 15px;
-    border-radius: 15px;
+    color: white;
+    background-color: black;
     margin-top:20px;
     border:1px solid black;
 }
