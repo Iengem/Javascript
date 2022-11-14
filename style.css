@@ -51,10 +51,12 @@ div:hover{
     section{
         grid-template-columns: repeat(10, auto);
         max-width: 100vw;
+        height: auto;
+        width: auto;
     }
     div{
         width: auto;
-        padding: 15px;
+        padding: 10px;
         height: auto;
     }
     input{
