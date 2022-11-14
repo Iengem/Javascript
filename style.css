@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin:0px;
     padding:0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lexend',sans-serif;
 }
 #eggs{
     padding:20px;
     width: 200px;
-    border: 1px solid;
+    border: 2px solid;
     padding-left:20px;
     border-radius: 15px;
     font-size: 15px;
@@ -17,12 +18,13 @@
     margin-top:150px;
 }
 legend{
-    font-weight: bold;
+    font-weight: 500;
     padding: 10px;
 }
 fieldset{
     width: 400px;
     padding: 20px;
+    border: 2px solid ;
 }
 #button{
     padding: 20px 30px;
