@@ -15,7 +15,7 @@ section{
     column-gap: 5px;
     row-gap: 5px;
     justify-content: center;
-    max-width: 90vw;
+    width: 90vw;
     border-radius: 20px;
     margin: 0px auto;
     padding-bottom: 10px;
@@ -34,7 +34,7 @@ div{
     padding: 30px;
     background-color: black;
     cursor: pointer;
-    max-width: 100px;
+    width: auto;
     height: auto;
 }
 div:hover{
@@ -44,8 +44,20 @@ div:hover{
 .keys31{
     grid-column: 4 / 3;
 }
-@media screen and(max-width:480px){
+@media screen and (max-width:1280px){
+    *{
+        font-size: 20px;
+    }
+    section{
+        grid-template-columns: repeat(10, auto);
+        max-width: 100vw;
+    }
     div{
-        width: 20px;
+        width: auto;
+        padding: 15px;
+        height: auto;
+    }
+    input{
+        width: 80vw;
     }
 }
