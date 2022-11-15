@@ -26,6 +26,7 @@ body{
     margin: 0px auto;
     padding-bottom: 10px;
     padding-top: 12px;
+    
 }
 input{
     height: 225px;
@@ -43,7 +44,7 @@ div{
 }
 div:hover{
     background-color: rgb(25, 25, 25);
-    transform: scale(0.97);
+    transform: scale(0.95);
 }
 .keys31{
     grid-column: 4 / 3;
