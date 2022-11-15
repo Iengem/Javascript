@@ -17,7 +17,7 @@ body{
 }
 .keyboard{
     display: grid;
-    grid-template-columns:repeat(10, 10fr);
+    grid-template-columns:repeat(10, 1fr);
     column-gap: 5px;
     row-gap: 5px;
     justify-content: center;
@@ -44,7 +44,7 @@ div{
 }
 div:hover{
     background-color: rgb(25, 25, 25);
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 .keys31{
     grid-column: 4 / 3;
@@ -55,9 +55,6 @@ div:hover{
     }
     .container{
         padding-top: 30px;
-    }
-    div{
-        border-radius: 100px;
     }
     input{
         width: 80vw;
