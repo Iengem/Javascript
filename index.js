@@ -36,7 +36,7 @@ keys.addEventListener('click', function(){
 })
 keys = document.querySelector('.keys10');
 keys.addEventListener('click', function(){
-    document.querySelector('#bar').value += '10';
+    document.querySelector('#bar').value += '0';
 })
 keys = document.querySelector('.keys11');
 keys.addEventListener('click', function(){
