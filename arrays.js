@@ -29,4 +29,4 @@ function index(arr, target){
     }
 }
 }
-// console.log(index([1, 2, 3, 4], 7))
+console.log(index([1, 2, 3, 4], 7))
