@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="formcontent">
+            <h1>SIGNUP FORM</h1>
+            <div class="info">
+                <label for="firstname">Firstname</label>
+                <input type="text" id='firstname' required placeholder="Enter your firstname">
+            </div>
+            <div class="info">
+                <label for="lastname">Lastname</label>
+                <input type="text" id='lastname' required placeholder="Enter your lastname">
+            </div>
+            <div class="info">
+                <label>Gender</label>
+                <div class="options">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender"required>
+                </div>
+                <div class="options">
+                    <label for="female">Female</label>
+                    <input type="radio" id='female'requiredname="gender">
+                </div>
+            </div>
+            <div class="info">
+                <label for="DOB">Date of Birth</label>
+                <input type="date" id="DOB"required>
+            </div>
+            <div class="info">
+                <label for="password">Password</label>
+                <div class="password">
+                    <input type="password" id="confirm"required placeholder="Enter your password" >
+                    <i class="bi bi-eye-slash"></i>
+                </div>
+            </div>
+            <div class="info">
+                <label for="password">Confirm password</label>
+                <div class="password">
+                    <input type="password"required id="Confirm" placeholder="Confirm password">
+                    <i class="bi bi-eye-slash"></i>
+                </div>
+            </div>
+            <div class="options">
+                <input id='agree' required type="checkbox">
+                <label for="agree">I agree that I am over the age of 18 and not a U.S citizen</label>
+            </div>
+            <button type="Submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
